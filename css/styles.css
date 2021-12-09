@@ -889,3 +889,203 @@ img {
 	align-self: start;
 	border: none;
 }
+
+/* Footer */
+.site-footer {
+	padding-top: 61px;
+	padding-bottom: 23px;
+	background: #f3f3f3;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+}
+.footer-container {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 63px;
+}
+.footer-logo {
+	margin-right: 67px;
+}
+.footer-nav {
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+}
+.footer-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.footer-list + .footer-list {
+	margin-left: 87px;
+}
+.footer-nav-item {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.footer-nav-link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #333333;
+	text-decoration: none;
+}
+.footer-nav-link:hover {
+	color: #ffbd54;
+}
+.footer-nav-link:active {
+	color: rgba(51, 51, 51, 0.6);
+}
+.footer-date {
+	position: relative;
+	z-index: 1;
+	margin-right: 137px;
+}
+.footer-date-text {
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+.footer-address {
+	display: flex;
+	align-items: center;
+	font-style: normal;
+	margin-right: 112px;
+}
+.footer-calls {
+	position: relative;
+	z-index: 1;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.footer-calls-item {
+	margin-bottom: 4px;
+}
+.footer-calls-link {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #333333;
+}
+.footer-calls-link:hover {
+	color: #ffbd54;
+}
+.footer-calls-link:active {
+	color: rgba(51, 51, 51, 0.6);
+}
+.footer-address::before {
+	display: block;
+	width: 14px;
+	height: 13px;
+	background-image: url('../img/address.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin-right: 9px;
+	margin-bottom: 12px;
+	content: '';
+}
+.footer-date::before {
+	position: absolute;
+	z-index: 1;
+	right: 100%;
+	top: 5px;
+	width: 14px;
+	height: 14px;
+	background-image: url('../img/data.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin-right: 9px;
+	margin-bottom: 12px;
+	content: '';
+}
+.footer-calls::before {
+	position: absolute;
+	z-index: 1;
+	right: 100%;
+	top: 5px;
+	width: 13px;
+	height: 13px;
+	background-image: url('../img/call.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin-right: 9px;
+	margin-bottom: 12px;
+	content: '';
+}
+.footer-copyright {
+	text-align: right;
+	font-size: 14px;
+	line-height: 18px;
+	color: #5c5c5c;
+}
+.article-not-active {
+	display: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+	.doctor .services-link::before {
+		background-image: url('../img/doctor@2x.png');
+	}
+	.girl-doc .services-link::before {
+		background-image: url('../img/girl-doctor@2x.png');
+	}
+	.ill-dog .services-link::before {
+		background-image: url('../img/ill-dog@2x.png');
+	}
+	.derm .services-link::before {
+		background-image: url('../img/derm@2x.png');
+	}
+	.labo .services-link::before {
+		background-image: url('../img/labo@2x.png');
+	}
+	.plus-dog .services-link::before {
+		background-image: url('../img/plus-dog@2x.png');
+	}
+	.uzi .services-link::before {
+		background-image: url('../img/uzi@2x.png');
+	}
+	.injec .services-link::before {
+		background-image: url('../img/injec@2x.png');
+	}
+	.passport .services-link::before {
+		background-image: url('../img/passport@2x.png');
+	}
+	.vac .services-link::before {
+		background-image: url('../img/vac@2x.png');
+	}
+	.stom .services-link::before {
+		background-image: url('../img/stom@2x.png');
+	}
+	.home .services-link::before {
+		background-image: url('../img/home@2x.png');
+	}
+	.about-right {
+		background-image: url('../img/gold-fish@2x.png');
+	}
+	.subscribe::after {
+		background-image: url('../img/dog-groom@2x.png');
+	}
+	.subscribe {
+		background-image: url('../img/maskgroup@2x.png');
+	}
+	.service-info-item {
+		background-image: url('../img/cat.jpg');
+	}
+	.quote {
+		background-image: url('../img/open@2x.png'), url('../img/close@2x.png');
+	}
+	.intro {
+		background-image: url('../img/intro-bg@2x.png'),
+			url('../img/intro-bg-two@2x.png');
+	}
+}
