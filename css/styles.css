@@ -182,6 +182,7 @@ img {
 	margin-top: 0;
 	margin-bottom: 0;
 	white-space: nowrap;
+	margin-right: 10px;
 }
 
 .header-bottom {
@@ -296,10 +297,11 @@ img {
 	padding-bottom: 290px;
 	padding-left: 45px;
 	padding-right: 45px;
-	background-image: url('../img/intro-bg.png'), url('../img/intro-bg-two.png');
+	background-image: url('../img/cropped-pets.png'),
+		url('../img/intro-bg-two.png');
 	background-repeat: no-repeat;
-	background-position: calc(50% - 530px) -50px, calc(50% + 690px) 380px;
-	background-size: contain, 319px 430px;
+	background-position: calc(50% - 350px) 180px, calc(50% + 690px) 380px;
+	background-size: 800px, 319px 430px;
 }
 .intro-info {
 	width: 608px;
@@ -1336,4 +1338,96 @@ img {
 }
 .cut-img + .cut-img {
 	margin-left: 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+	.header-top-date {
+		display: none;
+	}
+	.header-nav-list {
+		margin-right: 50px;
+	}
+	.logo {
+		left: calc(50% - 500px);
+	}
+	.calls-list {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 1160px) {
+	.header-nav-item + .header-nav-item {
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 1005px) {
+	.logo {
+		left: calc(50% - 480px);
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.logo {
+		left: calc(50% - 460px);
+	}
+	.logo-img {
+		width: 150px;
+		height: 70px;
+	}
+}
+@media only screen and (max-width: 945px) {
+	.header-top-address {
+		margin-right: 70px;
+	}
+	.header-nav-item:last-child {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 925px) {
+	.logo {
+		left: calc(50% - 420px);
+	}
+	.header-nav-item:nth-child(5) {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 875px) {
+	.header-top-address {
+		margin-right: 50px;
+	}
+}
+
+@media only screen and (max-width: 847px) {
+	.header-top-address {
+		margin-right: 30px;
+	}
+
+	.calls-item:last-child {
+		display: none;
+	}
+
+	.header-top-address {
+		margin-right: 70px;
+	}
+
+	.logo {
+		left: calc(50% - 400px);
+	}
+}
+
+@media only screen and (max-width: 810px) {
+	.logo {
+		left: calc(50% - 350px);
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.logo {
+		position: static;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
