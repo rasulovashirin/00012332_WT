@@ -691,3 +691,135 @@ img {
 	border: none;
 	padding: 15px 50px;
 }
+/* ARTICLES */
+.articles {
+	margin-bottom: 262px;
+}
+.articles-heading {
+	margin-top: 0;
+	margin-bottom: 80px;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 20px;
+	text-align: center;
+}
+.articles-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.article {
+	display: inline-flex;
+	align-items: center;
+	/* border: 1px solid #F3F3F3; */
+	border-radius: 5px;
+}
+.article + .article {
+	margin-left: 24px;
+}
+.article-img {
+	display: block;
+	width: 305px;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.article-info {
+	padding: 37px 30px;
+	background: #ffffff;
+	height: 100%;
+}
+.article-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 31px;
+}
+.hashtag-list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	color: #3d9cea;
+}
+.hashtag + .hashtag {
+	margin-left: 7px;
+}
+.article-date {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	color: #949494;
+}
+.article-heading {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 29px;
+	width: 193px;
+}
+.article-text {
+	margin-top: 0;
+	margin-bottom: 33px;
+	width: 290px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #949494;
+}
+.article-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #333333;
+}
+.article-link:hover {
+	color: #ffbd54;
+}
+.article-link:active {
+	color: rgba(51, 51, 51, 0.6);
+}
+.article-link::before {
+	width: 23px;
+	height: 21px;
+	background-image: url('../img/lapa.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin-right: 5px;
+	content: '';
+}
+.article-item {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 305px;
+}
+.small-article-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.small-article-img {
+	display: block;
+	width: 305px;
+	height: 180px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.small-article-date {
+	margin-bottom: 2px;
+	align-self: flex-end;
+}
+.small-article-heading {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 25px;
+	color: #000000;
+}
