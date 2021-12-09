@@ -1277,3 +1277,63 @@ img {
 }
 
 /* ABOUT PAGE */
+.a-main {
+	padding-top: 110px;
+	padding-bottom: 200px;
+	background-image: url('../img/about-doctor.png');
+	background-repeat: no-repeat;
+	background-size: 448px 545px;
+	background-position: right 10px;
+}
+
+.a-main-top {
+	padding-bottom: 180px;
+}
+
+.about-container {
+	background-image: url('../img/lapas.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 100px 180px;
+}
+
+.a-content-one {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+}
+
+.a-content-two {
+	background-color: transparent;
+}
+
+.a-content-text {
+	padding: 115px;
+}
+
+.cut-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cut-content {
+	width: 416px;
+	margin-left: 100px;
+}
+.cut-header {
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 48px;
+	color: #333333;
+}
+.cut-text {
+	font-size: 16px;
+	line-height: 20px;
+	color: #949494;
+}
+.cut-img {
+	border-radius: 5px;
+}
+.cut-img + .cut-img {
+	margin-left: 20px;
+}
