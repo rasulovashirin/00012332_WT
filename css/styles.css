@@ -1182,3 +1182,70 @@ img {
 .s-item:nth-child(even) .s-link:hover {
 	background-color: #000;
 }
+/* CONTACT */
+.c-main {
+	padding-top: 110px;
+	padding-bottom: 168px;
+	background-image: url('../img/contact-dog.png');
+	background-repeat: no-repeat;
+	background-size: 435px 435px;
+	background-position: right 10px;
+}
+.c-main-top {
+	margin-bottom: 139px;
+	margin-left: 112px;
+}
+.c-main-header {
+	margin-top: 0;
+	margin-bottom: 21px;
+	font-size: 70px;
+	line-height: 64px;
+	color: #333333;
+}
+.c-main-text {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 447px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #949494;
+}
+
+.c-content {
+	width: 656px;
+	margin-left: 112px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.c-wrapper {
+	width: 153px;
+}
+.c-img {
+	margin-bottom: 26px;
+}
+.adress-text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+}
+.c-days {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.c-day {
+	margin-bottom: 12px;
+}
+.c-contacts {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.c-contact {
+	margin-bottom: 9px;
+}
+.c-contact-link {
+	text-decoration: none;
+	color: #000;
+}
