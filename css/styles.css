@@ -932,6 +932,7 @@ img {
 	line-height: 21px;
 	color: #333333;
 	text-decoration: none;
+	white-space: nowrap;
 }
 .footer-nav-link:hover {
 	color: #ffbd54;
@@ -1426,6 +1427,14 @@ img {
 	}
 }
 
+@media only screen and (max-width: 1210px) {
+	.footer-date {
+		margin-right: 30px;
+	}
+	.footer-address {
+		margin-right: 30px;
+	}
+}
 @media only screen and (max-width: 1182px) {
 	.intro {
 		background-image: none;
@@ -1444,6 +1453,49 @@ img {
 @media only screen and (max-width: 1160px) {
 	.header-nav-item + .header-nav-item {
 		margin-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	.footer-container {
+		flex-direction: column;
+		padding-left: 50px;
+		margin-bottom: 0;
+	}
+	.footer-list {
+		display: flex;
+		margin-bottom: 20px;
+	}
+	.footer-nav-item {
+		margin-right: 20px;
+	}
+	.footer-list + .footer-list {
+		margin-left: 20px;
+	}
+	.footer-date {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+	.footer-calls {
+		display: flex;
+		margin-bottom: 20px;
+		margin-left: 25px;
+	}
+	.footer-address {
+		margin-bottom: 20px;
+	}
+	.footer-calls-item + .footer-calls-item::before {
+		width: 4px;
+		height: 4px;
+		background-image: url('../img/circle.svg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
+		margin-right: 9px;
+		margin-left: 9px;
+		content: '';
 	}
 }
 
