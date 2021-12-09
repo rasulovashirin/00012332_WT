@@ -1340,6 +1340,10 @@ img {
 	margin-left: 20px;
 }
 
+.article:nth-child(4) {
+	display: none;
+}
+
 @media only screen and (max-width: 1428px) {
 	.intro {
 		background-image: url('../img/cropped-pets.png');
@@ -1350,8 +1354,38 @@ img {
 		font-size: 60px;
 		line-height: 54px;
 	}
+	.subscribe::after {
+		background-image: none;
+		width: 0;
+		height: 0;
+	}
+	.subscribe-container {
+		margin: 0;
+	}
+	.subscribe-heading {
+		line-height: 20px;
+	}
 }
 
+@media only screen and (max-width: 1300px) {
+	.article:nth-child(2) {
+		display: none;
+	}
+	.article:nth-child(4) {
+		display: block;
+	}
+	.articles-list {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.article + .article {
+		margin-left: 0;
+	}
+	.article {
+		margin-bottom: 20px;
+	}
+}
 @media only screen and (max-width: 1266px) {
 	.intro-info {
 		min-width: 400px;
@@ -1413,7 +1447,14 @@ img {
 	}
 }
 
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 1020px) {
+	/* .service-info-item {
+		background-image: none;
+	} */
+	.info-item-box {
+		background-color: #fff;
+		padding: 20px;
+	}
 }
 
 @media only screen and (max-width: 1005px) {
@@ -1452,6 +1493,9 @@ img {
 @media only screen and (max-width: 875px) {
 	.header-top-address {
 		margin-right: 50px;
+	}
+	.intro {
+		padding-bottom: 100px;
 	}
 }
 
@@ -1495,6 +1539,10 @@ img {
 	.logo {
 		left: calc(50% - 300px);
 	}
+
+	.quote-text {
+		width: 600px;
+	}
 }
 
 @media only screen and (max-width: 690px) {
@@ -1507,10 +1555,25 @@ img {
 	}
 }
 
+@media only screen and (max-width: 644px) {
+	.articles-list {
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+	}
+
+	.article:nth-child(4) {
+		margin-right: 0;
+	}
+}
+
 @media only screen and (max-width: 635px) {
 	.logo-img {
 		width: 100px;
 		height: 50px;
+	}
+	.quote-text {
+		width: 500px;
 	}
 }
 
@@ -1531,6 +1594,21 @@ img {
 	}
 }
 
+@media only screen and (max-width: 575px) {
+	.subscribe-heading {
+		padding-left: 20px;
+	}
+	.subscribe-form {
+		flex-direction: column;
+		padding: 10px;
+		width: 100%;
+	}
+	.subscribe-input {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
+
 @media only screen and (max-width: 572px) {
 	.intro-heading {
 		font-size: 30px;
@@ -1541,9 +1619,19 @@ img {
 	}
 }
 
+@media only screen and (max-width: 525px) {
+	.info-item-box {
+		width: 350px;
+		border-radius: 5px;
+	}
+}
+
 @media only screen and (max-width: 514px) {
 	.logo {
 		display: none;
+	}
+	.quote-text {
+		width: 400px;
 	}
 }
 
@@ -1565,6 +1653,9 @@ img {
 	}
 	.intro-text {
 		width: 250px;
+	}
+	.service-info-item {
+		background-image: none;
 	}
 }
 
