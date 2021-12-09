@@ -823,3 +823,69 @@ img {
 	line-height: 25px;
 	color: #000000;
 }
+/* about */
+.about {
+	display: flex;
+	width: 100%;
+	margin-bottom: 247px;
+}
+.map-img {
+	display: block;
+	width: 462px;
+	height: 652px;
+}
+.about-right {
+	width: 100%;
+	background-image: url('../img/gold-fish.png');
+	/* background-repeat: no-repeat; */
+	background-position: calc(50% - 100px) center;
+	background-color: #333333;
+	padding: 62px 166px;
+}
+
+.about-heading {
+	margin-top: 0;
+	margin-bottom: 14px;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	color: #fff;
+	width: 360px;
+}
+.about-text {
+	margin-top: 0;
+	margin-bottom: 22px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #949494;
+	width: 334px;
+}
+.about-form {
+	display: inline-flex;
+	flex-direction: column;
+	width: 375px;
+}
+.about-input {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding: 15px 20px;
+	border: 2px solid transparent;
+}
+.about-input:focus {
+	outline: none;
+	border: 2px solid #ffbd54;
+}
+.about-input:not(:placeholder-shown):invalid {
+	outline: none;
+	border: 2px solid #dc4d41;
+	color: #dc4d41;
+}
+.about-textarea {
+	height: 165px;
+	color: #949494;
+	margin-bottom: 23px;
+}
+.form-button {
+	align-self: start;
+	border: none;
+}
