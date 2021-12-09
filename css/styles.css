@@ -1249,3 +1249,31 @@ img {
 	text-decoration: none;
 	color: #000;
 }
+
+.c-find {
+	padding-top: 200px;
+}
+.c-find-header {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	display: flex;
+	align-items: center;
+	color: #333333;
+}
+.map-wrapper {
+	display: flex;
+	align-items: stretch;
+}
+.c-link {
+}
+.c-map-img {
+	display: block;
+	height: 466px;
+}
+.c-clinic-img {
+	display: block;
+	height: 466px;
+}
+
+/* ABOUT PAGE */
